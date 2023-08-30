@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "yekan";
+    src: url(../fonts/yekan.eot);
+    src: url(../fonts/yekan.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/yekan.ttf) format("truetype"),
+    url(../fonts/yekan.woff) format("woff");
+}
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+body{
+    direction: rtl;
+    font-family: "yekan";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #ffccbc;
+}
+#container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #151729;
+    background-image: url(../img/pattern.png);
+
+}
+#container .content{
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+}
+#container .content h2{
+    color: white;
+    font-size: 8rem;
+}
+#container .content p{
+    color: white;
+    font-size: 2rem;
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+}
+#container .content a{
+    background: rgb(255, 214, 32);
+    padding: 0.5rem 1rem;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;   
+}
