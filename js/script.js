@@ -1,3 +1,7 @@
+/*
+Copyright amir javanmir
+Released on: october 12, 2023
+*/
 const parent = document.querySelector("#container");
 window.onmousemove = function(e){
     let x = e.clientX / 5;
