@@ -1,6 +1,6 @@
 /*
 Copyright amir javanmir
-Released on: october 12, 2023
+Released on: august 30, 2023
 */
 const parent = document.querySelector("#container");
 window.onmousemove = function(e){
